@@ -21,6 +21,8 @@ const App = createAppContainer(navigator);
 
 export default () => {
   return (
+
+    //App is a children of BlogSpot
     <BlogProvider>
       <App />
     </BlogProvider>
